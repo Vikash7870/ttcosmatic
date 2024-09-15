@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Head section  */
+
+
+.container-head {
+    width: auto;
+    height: 100px;
+    background-color: #E98EAD;
+    box-shadow: #2d2022 0px 5px 15px 0px;
+}
+.Container-title{
+
+    display: block;
+    line-height: 100px;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+.container-head-icon{
+ 
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 72px;
+}
+.icon{
+    margin-right: 15px;
+    color: white;
+    line-height: 20px;
+}
+.icon:hover{
+    cursor: pointer;
+    color: #917FB3;
+}
+ 
+.parent-tab {
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* navbar  */
+.nav1 {
+    height: 50px;
+    background-color: #E98EAD;
+    box-shadow: #2d2022 0px 5px 15px 0px;
+}
+
+/* Tab bar  */
+.tab1 {
+    margin: 20px;
+    border-radius: 15px;
+    width: 460px;
+    background-color: #E98EAD;
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    box-shadow: #2d2022 0px 5px 15px 0px;
+    z-index: 2;
+    color: white;
+    text-decoration: none;
+}
+
+.tab1:hover {
+    cursor: pointer;
+    background-color: #917FB3;
+}
+
+.parent-tab a {
+    text-decoration: none;
+    overflow: hidden;
+}
+.parent-tab a :is(:link,:active,:visited)
+{
+    background-color: #917FB3;
+}
+ 
+/* Home menu   */
+
+ 
+ 
+.scroll {
+    position: absolute;
+    right: 50%;
+    margin-top: 45px;
+}
